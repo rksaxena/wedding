@@ -1,0 +1,273 @@
+/*! CSS reset from benfrain/app-reset */
+*,:after,:before{box-sizing:inherit}html{box-sizing:border-box}
+*{user-select:none;-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-tap-highlight-color:transparent}
+[contenteditable],input[type]{user-select:text}
+a{text-decoration:none;color:inherit}b{font-weight:400}em,i{font-style:normal}a:focus,input:focus{outline:0}
+fieldset,input{appearance:none;border:0;padding:0;margin:0;min-width:0;font-size:1rem;font-family:inherit}
+input::-ms-clear{display:none}input[type=number]{-moz-appearance:textfield}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{appearance:none}
+svg{display:inline-flex}img{max-width:100%;display:block}
+
+@font-face{
+    font-family: 'Linming';
+    src: url('../fonts/lingming-manuscript.regular.ttf')
+}
+
+@font-face{
+    font-family: 'Wizard';
+    src: url('../fonts/wizards-magic.ttf')
+}
+
+@font-face {
+    font-family:"Sansation Light";
+    src:url("../fonts/Sansation_Light.eot?") format("eot"),url("../fonts/Sansation_Light.woff") format("woff"),url("../fonts/Sansation_Light.ttf") format("truetype"),url("../fonts/Sansation_Light.svg#SansationLight") format("svg");font-weight:normal;font-style:normal;
+}
+
+
+html {
+  color: #030303;
+  font: caption;
+  padding-bottom: 2em;
+}
+
+body {
+    background-image: url('/img/leather-bg.png');
+    background-repeat: repeat;
+}
+
+.container{
+    width: 900px;
+}
+
+a {
+  color: #1f4ba0;
+  text-decoration: underline;
+}
+
+header {
+  padding: 2em;
+}
+
+header .logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+
+.not-found {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.not-found h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.not-found h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.logo-area-celebration {
+    width: 100%;
+    padding: 10px 0;
+    overflow: hidden;
+    /* background: url(/img/header-bg.png) no-repeat center 5px; */
+}
+.header-main {
+    background: url(/img/head-bg.png) repeat;
+}
+
+.img-css{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    padding-bottom: 5px;
+}
+
+.img-carousel {
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    height: 66.6vh;
+}
+
+.events {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.contact {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.about {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.images {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.member {
+    display:inline-block;
+    width:300px;
+    padding:5px;
+}
+
+.family_photo {
+    display:inline-block;
+    width:445px;
+    padding:5px;
+}
+
+.background-layout{
+    background: transparent url("/img/background.jpeg") no-repeat scroll center center / cover;
+    /* padding-top: 190px;
+    padding-bottom: 150px;*/
+    padding-top: 130px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.logo-area-celebration h1 {
+    font-family: 'Sansation Light';
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background: url(/img/shadow-linew.png) no-repeat center bottom;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+.nav-center-align {
+    display: flex;
+    justify-content: center !important;
+}
+.font-color>li>a {
+    font-family: 'Sansation Light' !important;
+    color: #fff !important;
+}
+.font-color>li>a:focus,
+.font-color>li>a:active,
+.font-color>li>a:hover {
+    text-decoration: overline !important;
+    background-color: transparent !important;
+}
+.home-text{
+    background-color: rgba(10,10,0,0.6);
+    color: #fff;
+    font-family: 'Sansation Light';
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: large;
+}
+
+.home-text h1{
+    font-size: xx-large;
+    font-family: 'Sansation Light';
+}
+
+.date-t{
+    background-color: rgba(10,10,0,0.6);
+    color: #fff;
+    font-family: 'Sansation Light';
+    font-size: xx-large;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.events-text{
+    background-color: rgba(10,10,0,0.6);
+    color: #fff;
+    font-family: 'Sansation Light';
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+}
+.events-text h1{
+    font-size: xx-large;
+    font-family: 'Sansation Light';
+}
+
+.contact-text {
+    background-color: rgba(10,10,0,0.6);
+    color: #fff;
+    font-family: 'Sansation Light';
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.contact-text h1{
+    font-size: xx-large;
+    font-family: 'Sansation Light';
+}
+
+.title h3{
+    text-align: center;
+    font-family: 'Sansation Light';
+    font-size: 30px;
+}
+
+/* Tablets */
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .about p {
+        width: auto;
+    }
+}
+/* Mobile phones */
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .main .main-invite h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .main .main-date i.icon-heart {
+        font-size: 65px;
+    }
+
+    .main .main-date .date span.month {
+        font-size: 35px;
+        line-height: 47px;
+    }
+
+    .main .main-date .date span.year {
+        font-size: 48px;
+        line-height: 60px;
+    }
+}
