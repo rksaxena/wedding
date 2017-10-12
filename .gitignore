@@ -1,3 +1,6 @@
+# bundle
+src/static/js/bundle.js
+
 # Logs
 logs
 *.log

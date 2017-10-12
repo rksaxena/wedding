@@ -55,7 +55,6 @@ export default class HomeContent extends React.Component{
                     <div className="col-sm-12">
                         <div className="col-sm-12 events-text">
                             <p> <span className="glyphicon glyphicon-warning-sign" />  Only people allowed, strictly no gifts</p>
-                            <p style={{"fontStyle":"italic"}}> Finally... AAO KABHI HAVELI PAR!!! </p>
                         </div>
                     </div>
                 </div>

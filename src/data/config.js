@@ -1,6 +1,6 @@
 module.exports = {
-    "groom": "Manu",
-    "bride": "Tanu",
+    "groom": " Manu ",
+    "bride": " Tanu ",
     "weddingDate": "24.11.2017",
     "numImages": 5,
     "homeTitle": "We are getting married",
